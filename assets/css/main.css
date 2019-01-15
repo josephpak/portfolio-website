@@ -2034,7 +2034,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.1;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3185,4 +3185,15 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+	.actions img {
+		width: 19px;
+		height: 19px;
+	}
+
+	.actions a {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
 	}
