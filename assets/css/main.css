@@ -3186,3 +3186,14 @@ input, select, textarea {
 			}
 
 	}
+
+	.actions img {
+		width: 19px;
+		height: 19px;
+	}
+
+	.actions a {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
